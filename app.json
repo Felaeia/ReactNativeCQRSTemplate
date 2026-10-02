@@ -1,47 +1,25 @@
 {
   "expo": {
-    "name": "BookFinder",
-    "slug": "bookfinder",
+    "name": "React Native CQRS Template",
+    "slug": "react-native-cqrs-template",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "bookfinder",
+    "scheme": "react-native-cqrs-template",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.bookfinder"
+      "bundleIdentifier": "com.example.reactnativecqrstemplate"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png",
-        "backgroundColor": "#FFFFFF",
-        "monochromeImage": "./assets/images/icon.png"
-      },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.bookfinder"
+      "package": "com.example.reactnativecqrstemplate"
     },
     "web": {
-      "output": "static",
-      "favicon": "./assets/images/icon.png"
+      "output": "static"
     },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#FFFFFF",
-          "dark": {
-            "image": "./assets/images/icon.png",
-            "backgroundColor": "#000000"
-          }
-        }
-      ]
-    ],
+    "plugins": ["expo-router", "expo-splash-screen"],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
